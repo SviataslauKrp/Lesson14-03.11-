@@ -7,16 +7,19 @@ public class MyClass {
     public void oneMethod() {
         try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
 
-            String str = bufferedReader.readLine();
-            String lineToReverse = bufferedReader.readLine();
+            while (true) {
+                System.out.println("Введите 1 для выполнения функции реверса. Введите 0 для выхода");
+                String str = bufferedReader.readLine();
+                if (str.equals("0")) break;
 
-            if (str.equals("1")) {
-                Reversable<String> revers = line -> new StringBuilder(lineToReverse);
-                System.out.println(revers);
-            } else {
-                oneMethod();
+                if (str.equals("1")) {
+                    System.out.println("Введите строку, которую хотите реверсировать");
+                    String lineToReverse = bufferedReader.readLine();
+                    Reversable revers = line -> new StringBuilder(line).reverse().toString();
+                    System.out.println(revers.reverse(lineToReverse));
+                    break;
+                }
             }
-
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

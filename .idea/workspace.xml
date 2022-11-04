@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8722d700-622a-42d4-908c-e5489f68fa20" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reversable.java" afterDir="false" />
+    <list default="true" id="8722d700-622a-42d4-908c-e5489f68fa20" name="Changes" comment="dayOfWeekCommit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CalendarWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalendarWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reversable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reversable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,8 @@
       <updated>1667548823924</updated>
       <workItem from="1667548831619" duration="9424000" />
       <workItem from="1667563567656" duration="2870000" />
-      <workItem from="1667570489300" duration="1021000" />
+      <workItem from="1667570489300" duration="1699000" />
+      <workItem from="1667585415445" duration="1668000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1667557133032</created>
@@ -81,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667557133032</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dayOfWeekCommit">
+      <created>1667571758372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667571758372</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="dayOfWeekCommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="dayOfWeekCommit" />
   </component>
 </project>

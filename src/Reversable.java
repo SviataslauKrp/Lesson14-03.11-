@@ -1,6 +1,6 @@
 @FunctionalInterface
-public interface Reversable<T> {
+public interface Reversable {
 
-    void reverse(String line);
+    String reverse(String line);
 
     }
