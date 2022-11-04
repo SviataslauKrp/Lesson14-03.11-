@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8722d700-622a-42d4-908c-e5489f68fa20" name="Changes" comment="dayOfWeekCommit">
+    <list default="true" id="8722d700-622a-42d4-908c-e5489f68fa20" name="Changes" comment="three commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CalendarWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalendarWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reversable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reversable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <workItem from="1667548831619" duration="9424000" />
       <workItem from="1667563567656" duration="2870000" />
       <workItem from="1667570489300" duration="1699000" />
-      <workItem from="1667585415445" duration="1668000" />
+      <workItem from="1667585415445" duration="4819000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1667557133032</created>
@@ -89,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667571758372</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="three commit">
+      <created>1667587177951</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667587177951</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="dayOfWeekCommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="dayOfWeekCommit" />
+    <MESSAGE value="three commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="three commit" />
   </component>
 </project>

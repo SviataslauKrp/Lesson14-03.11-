@@ -1,6 +1,3 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
@@ -10,24 +7,12 @@ import java.util.Calendar;
 
 public class CalendarWorker {
 
-    public void getDayOfWeek() {
-        System.out.println("Введите дату в формате dd-MM-yyyy");
-        try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
-            while (true) {
-                String strDate = bufferedReader.readLine();
-                DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-                try {
-                    LocalDate localDate = LocalDate.parse(strDate, dtf);
-                    DayOfWeek dow = localDate.getDayOfWeek();
-                    System.out.println(dow);
-                    break;
-                } catch (DateTimeParseException e) {
-                    System.out.println("Введена некоррекная дата: " + e.getMessage());
-                }
-            }
-        } catch (IOException e) {
-            throw new RuntimeException();
-        }
+    public void getDayOfWeek(String date) throws DateTimeParseException {
+
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        LocalDate localDate = LocalDate.parse(date, dtf);
+        DayOfWeek dow = localDate.getDayOfWeek();
+        System.out.println(dow);
     }
 
     public static void getNexTuesday() {
