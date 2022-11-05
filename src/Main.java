@@ -32,11 +32,10 @@ public class Main {
                             break;
                         case 3:
                             while (true) {
-                                System.out.println("Введите 1 для выполнения функции реверса. Введите 0 для выхода");
+                                System.out.println("Введите 1 для выполнения функции реверса. Введите 0 для выбора задания");
 
                                 String str = bufReader.readLine();
                                 if (str.equals("0")) {
-                                    System.out.println("Фхуф, отработали");
                                     break;
                                 } else if (str.equals("1")) {
                                     System.out.println("Введите строку, которую хотите реверсировать");
