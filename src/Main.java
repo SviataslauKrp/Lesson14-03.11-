@@ -16,9 +16,10 @@ public class Main {
                     int n = Integer.parseInt(bufReader.readLine());
                     switch (n) {
                         case 1:
-                            System.out.println("Введите дату в формате dd-MM-yyyy");
+                            System.out.println("Введите дату в формате dd-MM-yyyy или 0 для выбора задания");
                             while (true) {
                                 String date = bufReader.readLine();
+                                if (date.equals("0")) break;
                                 try {
                                     cw.getDayOfWeek(date);
                                     break;
